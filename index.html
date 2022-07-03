@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="Ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio │ Alianza </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Codigo CDN link -->
+    
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>      
+    <!--video-->
+    <header class="header content">
+        <div class="header-video">
+            <video src="source_code_-_4733 (Original).mp4" autoplay loop></video>
+        </div>
+
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Portafolio</h1>
+            
+                <div><p class="trazo"> Tu portfolio digital debe reflejar tu creatividad y originalidad. En lugar de mostrar un tema estándar, Portafolio te permite utilizar un estilo diferente para cada una de sus páginas. Gracias a esta libertad para combinar distintos diseños</p>
+                </div>
+            <a href="https://www.portfoliobox.net/es/?s=googlewo&gclid=Cj0KCQjwnNyUBhCZARIsAI9AYlEo7YulZvY7BPAP-fW1Ss4EfvNnbXO2Vl6G4pg029MpYugIt_mmIosaAmaAEALw_wcB"            target="_blank"
+            class="btn">Visita estos Recursos</a>
+            
+        </div>   
+    </header> 
+    <footer>
+            <p>Desarrollado por <br>©Daniel Eduardo Ramirez<br>©Daniel Andres tobom</p>
+        
+        </footer>            
+    <!--Logo del Menu-->
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class="bx bxl-visual-studio"></i>
+                <div class="logo_name">Portafolio</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>                
+                    <i class="bx bx-search"></i>
+                    <input type="text" placeholder="search...">            
+                <span class="tooltip">search...</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-grid-alt"></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-user" ></i>
+                    <span class="links_name">usuario</span>
+                </a>
+                <span class="tooltip">usuario</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bxs-conversation"></i>
+                    <span class="links_name">Mensajes</span>
+                </a>
+                <span class="tooltip">Mensajes</span>
+            </li>
+            <li>
+                <a href="./Recursos.html">
+                    <i class="bx bx-folder"></i>
+                    <span class="links_name">Recursos</span>
+                </a>
+                <span class="tooltip">Recursos</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-cog" ></i>
+                    <span class="links_name">configuración</span>
+                </a>
+                <span class="tooltip">configuración</span>
+            </li>                                   
+        </ul>
+        
+        <div  class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="Daniel.jpg" alt="">
+                    <div class="name_job">
+                        <div class="name">Daniel Andres tobom</div>
+                        <div class="job"><p2 class="trazo2" >Diseñador de la web</p2></div>
+                    </div>
+                    <i class='bx bx-log-out' id="log_out" ></i>
+                </div>                
+            </div>
+        </div>   
+        <div class="home_content">
+            <div class="text"></div>
+        </div>
+                 
+        <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }
+        searchBtn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }         
+        </script>                 
+    </div>  
+    
+</body>
+
+</html>
